@@ -2,7 +2,7 @@
   margin: 0;
 }
 .App > h1 {
-  background: black;
+  background: red;
   color: white;
   margin: 0;
   padding: 1em 1.5em;
@@ -13,14 +13,15 @@
 
 section.MatchList,
 section.PlayerList {
+  background: yellow;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1em;
 }
 section.MatchList {
-  background: black;
-  color: white;
+  background: rgb(97, 213, 76);
+  color: black;
 }
 section.MatchList > h1 {
   width: 100%;
